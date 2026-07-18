@@ -10,7 +10,7 @@ import InterviewPage from './pages/InterviewPage'
 import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
-import AtsResume from './pages/AtsResume'
+
 
 
 export const ServerUrl  = "https://elevobackend.onrender.com"
@@ -34,7 +34,6 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path="/ats-resume" element={<AtsResume />} />
       <Route path='/auth' element={<Auth/>}/>
       <Route path='/interview' element={<InterviewPage/>}/>
       <Route path='/history' element={<InterviewHistory/>}/>
