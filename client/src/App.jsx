@@ -13,7 +13,7 @@ import InterviewReport from './pages/InterviewReport'
 import AtsResume from './pages/AtsResume'
 
 
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl  = "https://elevobackend.onrender.com"
 
 function App() {
 
